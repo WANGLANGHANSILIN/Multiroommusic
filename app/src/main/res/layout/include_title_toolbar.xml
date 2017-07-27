@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="53dp"
+                android:padding="@dimen/demens10dp"
+                android:background="@mipmap/tabwidget_bg">
+
+
+
+    <ImageView
+        android:id="@+id/bt_left_icon"
+        android:layout_width="@dimen/demens50dp"
+        android:layout_height="@dimen/demens50dp"
+        android:src="@mipmap/control_eq"
+        android:visibility="invisible"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <ImageView
+        android:id="@+id/bt_left_icon_dlna"
+        android:layout_width="@dimen/demens50dp"
+        android:layout_height="@dimen/demens50dp"
+        android:src="@mipmap/dlna_device"
+        android:layout_toRightOf="@id/bt_left_icon"
+        android:layout_toEndOf="@id/bt_left_icon"
+        android:visibility="invisible"
+        android:layout_centerVertical="true"/>
+
+
+    <ImageView
+        android:id="@+id/bt_right_icon"
+        android:layout_width="@dimen/demens50dp"
+        android:layout_height="@dimen/demens50dp"
+        android:src="@mipmap/music_src"
+        android:visibility="invisible"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:id="@+id/tv_cent_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/font_color"
+        android:layout_toLeftOf="@id/bt_right_icon"
+        android:layout_toRightOf="@id/bt_left_icon"
+        android:paddingLeft="@dimen/demens10dp"
+        android:paddingRight="@dimen/demens10dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

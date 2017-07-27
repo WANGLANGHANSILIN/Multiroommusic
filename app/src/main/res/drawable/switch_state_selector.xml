@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="false" >
+        <shape android:shape="oval">
+
+            <size android:height="@dimen/demens10dp"/>
+            <!-- 圆角弧度 20 -->
+            <corners android:radius="@dimen/demens10dp"/>
+            <!-- 变化率 -->
+
+            <!-- 变化率  定义从左到右的颜色不变 -->
+            <gradient
+                android:endColor="@color/color_colse_gray"
+                android:startColor="@color/color_colse_gray" />
+        </shape>
+    </item>
+
+    <item android:state_checked="true" >
+        <shape android:shape="oval">
+
+            <size android:height="@dimen/demens10dp"/>
+            <!-- 圆角弧度 20 -->
+            <corners android:radius="@dimen/demens10dp"/>
+            <!-- 变化率 -->
+            <gradient
+                android:endColor="@color/color_colse_gray"
+                android:startColor="@color/color_colse_gray" />
+        </shape>
+    </item>
+
+</selector>

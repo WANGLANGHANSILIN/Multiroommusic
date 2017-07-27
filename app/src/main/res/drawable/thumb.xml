@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<item android:state_pressed="true"  android:drawable="@drawable/thumb_off" />-->
+    <item android:state_checked="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="ring"
+               android:innerRadius="0dp"
+               android:innerRadiusRatio="1"
+               android:thickness="15dp"
+               android:thicknessRatio="2"
+               android:useLevel="false">
+
+            <!--半径设置为15dp是为了让边界能够显示出一丝track-->
+
+            <solid android:color="#ffffffff" />
+
+        </shape>
+    </item>
+    <item android:state_checked="false">
+        <item android:state_checked="true">
+            <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="ring"
+                   android:innerRadius="0dp"
+                   android:innerRadiusRatio="1"
+                   android:thickness="15dp"
+                   android:thicknessRatio="2"
+                   android:useLevel="false">
+
+                <!--半径设置为15dp是为了让边界能够显示出一丝track-->
+
+                <solid android:color="#ffffffff" />
+
+            </shape>
+        </item>
+    </item>
+</selector>

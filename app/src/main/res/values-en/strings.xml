@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">多房间音乐</string>
+    <string name="action_settings">设置</string>
+    <string name="device_list">分区列表</string>
+    <string name="device_selector">你当前未选择控制设备,请选择控制设备...</string>
+    <string name="back">返回</string>
+    <string name="cancel">取消</string>
+    <string name="comfirm">确定</string>
+    <string name="refresh_tips_text">下拉刷新</string>
+    <string name="refresh_last_update">最近更新</string>
+    <string name="setting_list">设置</string>
+    <string name="channel">房间</string>
+    <string name="control">控制</string>
+    <string name="query_control_rooms">当控制多个房间时询问</string>
+    <string name="port">端口号</string>
+    <string name="query_tips_open">您已打开多房间控制时询问</string>
+    <string name="query_tips_close">您已关闭多房间控制时询问</string>
+    <string name="wifi_unable">Wi-Fi不可用</string>
+    <string name="wifi_open">Wi-fi已开启</string>
+    <string name="wifi_close">Wifi没有开启</string>
+    <string name="exit_app">按确定退出程序</string>
+    <string name="yes">确定</string>
+    <string name="no">取消</string>
+    <string name="attention">提示</string>
+    <string name="port_empty">端口号不能为空</string>
+    <string name="device_list_sliding">设备列表</string>
+    <string name="device_exist">未发现设备</string>
+    <string name="channel_open">请先打开房间</string>
+    <string name="radio_source">播放音源</string>
+    <string name="select_rooms">请选择要控制的房间</string>
+    <string name="control_rooms">确定要控制以下的房间吗？</string>
+    <string name="set_src_fail">设置失败，请重新选择</string>
+    <string name="update_channel_name">请输入新的房间名字</string>
+    <string name="channel_name_empty">房间名字不能为空</string>
+    <string name="channel_exist">房间已不存在</string>
+    <string name="channel_rename">长按房间重命名</string>
+    <string name="channel_name_long">房间名太长</string>
+    <string name="modify">修改</string>
+    <string name="searching_device">正努力寻找设备...</string>
+    <string name="play_list">播放列表</string>
+    <string name="check_same_src">请先选择相同的音源</string>
+    <string name="my_library">我的音乐库</string>
+    <string name="my_music">我的音乐</string>
+    <string name="favorites">我的最爱</string>
+    <string name="recent">最近播放</string>
+    <string name="new_list">新建列表</string>
+    <string name="dlna_set">DLNA</string>
+
+    <!--<string name="radio_sou">网络电台</string>  -->
+    <string name="select_player">请选择您的播放设备</string>
+    <string name="fail">失败</string>
+    <string name="succee">成功</string>
+    <string name="add_fail">添加失败</string>
+    <string name="add_succeed">添加成功</string>
+    <string name="del_succeed">刪除成功</string>
+    <string name="del_fail">刪除失败</string>
+    <string name="beyond">超出范围</string>
+    <string name="add_Radio">添加电台</string>
+    <string name="del_Radio">删除电台</string>
+    <string name="select_folder">请先从文件夹中选择播放歌曲</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="new_version">检查到新版本 </string>
+    <string name="want_to_upgrade">确定要升级吗？</string>
+    <string name="app_upgrade">升级提示</string>
+    <string name="next_time">下次再说</string>
+    <string name="update_now">立即更新</string>
+    <string name="upgrading">正在升级中，请稍等</string>
+    <string name="library">音乐库</string>
+    <string name="module_preparing">抱歉，网络模块正在准备中，请稍候再次尝试</string>
+    <string name="dlna_preparing">抱歉，未找到DLNA设备，请稍候再次尝试</string>
+    <string name="device">设备</string>
+    <string name="room_list">房间列表</string>
+    <string name="source_list">音源列表</string>
+    <string name="bluetoothsetting">蓝牙设置</string>
+    <string name="network_radio">网络电台</string>
+    <string name="custom_radio">自定义电台</string>
+    <string name="query">询问</string>
+    <string name="theme">主题</string>
+    <string name="language">语言</string>
+    <string name="about">关于</string>
+    <string name="new_source_name">请输入新的音源名称</string>
+    <string name="source_name_empty">抱歉，音源名称不能为空</string>
+    <string name="source_name_length">抱歉，音源名称不能超过八个字符</string>
+    <string name="radio_list">电台列表</string>
+    <string name="usb_out">U盘已拔出</string>
+    <string name="usb_in">U盘已插入</string>
+    <string name="sd_changed">SD卡里的歌曲已变动</string>
+    <string name="single_play">单曲播放</string>
+    <string name="single_loop">单曲循环</string>
+    <string name="order_play">顺序播放</string>
+    <string name="order_loop">顺序循环</string>
+    <string name="random_play">随机播放</string>
+    <string name="Treble_Bass_title">高低音调节</string>
+    <string name="Treble_text">高音</string>
+    <string name="Bass_text">低音</string>
+
+    <string name="requested_connections">正在连接</string>
+    <string name="playing">正在播放</string>
+
+
+
+
+    <!-- <string name="playback_failed">连接失败</string>? -->
+    <string name="playback_failed">连接失败</string>
+    <!-- 迷你主机DM838 -->
+    <string name="Source_LocalMusic">本地音乐</string>
+    <string name="Source_Built_in_music">内置音乐</string>
+    <string name="Source_NETMusic">网络音乐</string>
+    <string name="Source_NETRadio">网络电台</string>
+    <string name="Source_BT">蓝牙</string>
+    <string name="Source_AUX">辅助输入</string>
+
+    <string name="eq_source">音效列表</string>
+
+
+    <string name="normal">标准</string>
+    <string name="popual">流行</string>
+    <string name="classic">古典</string>
+    <string name="jazz">爵士</string>
+    <string name="rock">摇滚</string>
+
+    <string name="vocal">人声</string>
+    <string name="metal">金属</string>
+    <string name="sentimental">伤感</string>
+
+    <string name="dance">舞曲</string>
+    <string name="custom">自定义</string>
+
+    <!-- 寻呼 -->
+    <string name ="is_paging">正在寻呼中...</string>
+    <string name="paging">寻呼</string>
+    <!-- 寻呼 -->
+
+    <string name="add">添加</string>
+    <string name="del">删除</string>
+    <string name="Source_Sd">SD</string>
+    <string name = "sd_usb">SD/USB</string>
+    <string name = "root">Root</string>
+
+    <string name="setting_bule_name">蓝牙名称:</string>
+    <string name="setting_input_blue_name">请输入蓝牙名称</string>
+    <string name="setting_blue_psd">密码:</string>
+    <string name="setting_blue_input_psd">请输入蓝牙密码</string>
+    <string name="setting_blue_confirm">确定</string>
+    <string name="setting_blue_cancle">取消</string>
+
+
+    <string name="src_seletor">音源选择</string>
+
+
+    <string name="bein_add">正在添加...</string>
+    <string name="again_exit">再点一次退出</string>
+    <string name="add_success">" 电台添加成功..."</string>
+    <string name="radio_not_empty">电台地址或名称不能输入为空...</string>
+    <string name="radio_format_err">电台地址格式不正确...</string>
+    <string name="radio_length_empty">电台地址长度为空...</string>
+    <string name="radio_name_overlong">电台名字过长...</string>
+    <string name="radio_adress_overlong">电台地址过长...</string>
+
+    <string name="myradio">我的电台</string>
+    <string name="del_form_dev">删除选中的电台</string>
+    <string name="radio_edits">电台编辑</string>
+    <string name="add_to_dev">添加选中电台到设备</string>
+
+    <string name="check_the_new_version">检查新版本</string>
+    <string name="input_radio_name">请输入电台名称</string>
+
+    <string name="radio_back">返回</string>
+    <string name="radio_add_more">添加更多</string>
+    <string name="model_relevance">分区模块关联</string>
+
+    <string name="relevance_model_type_deafult">默认</string>
+    <string name="relevance_model_type_synchrinzation">同步</string>
+    <string name="relevance_model_type_custom">自定义</string>
+
+    <string name="inquiry_show_text">当控制多个房间时询问</string>
+    <string name="vaule_10db">10</string>
+    <string name="vaule_10db_">-10</string>
+
+    <string-array name="setting_language">
+        <item>English</item>
+        <item>繁体中文</item>
+        <item>简体中文</item>
+    </string-array>
+
+    <string-array name="dm838_setting_name">
+        <item>设备</item>
+        <item>房间列表</item>
+        <item>询问</item>
+        <item>语言</item>
+        <item>关于</item>
+    </string-array>
+
+    <string-array name="am8328_setting_name">
+        <item>设备</item>
+        <item>房间列表</item>
+        <item>音源列表</item>
+        <item>网络电台</item>
+        <item>分区模块关联</item>
+        <item>询问</item>
+        <item>语言</item>
+        <item>关于</item>
+    </string-array>
+
+</resources>

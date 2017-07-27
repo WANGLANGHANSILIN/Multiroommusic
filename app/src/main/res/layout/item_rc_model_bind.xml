@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/tv_item_rc_model_room_name"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/demens10dp"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        android:textColor="@color/font_color"/>
+
+    <TextView
+        android:id="@+id/tv_item_rc_model_model_name"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/demens10dp"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        android:drawableRight="@mipmap/eq_normal"
+        android:textColor="@color/font_color"/>
+</LinearLayout>

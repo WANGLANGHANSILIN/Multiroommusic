@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+    android:padding="@dimen/dimens5dp">
+
+    <ImageView
+        android:id="@+id/iv_item_source_icon"
+        android:layout_width="@dimen/demens45dp"
+        android:layout_height="@dimen/demens45dp"
+        android:padding="@dimen/dimens5dp"
+        android:src="@mipmap/icon_source_aux"/>
+
+    <TextView
+        android:id="@+id/tv_item_source_name"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:padding="@dimen/dimens5dp"/>
+    <ImageView
+        android:id="@+id/cb_item_source_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dimens5dp"
+        android:layout_margin="@dimen/dimens5dp"
+        android:background="@drawable/checkbox_style"/>
+
+</LinearLayout>

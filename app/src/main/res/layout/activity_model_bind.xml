@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <include android:id="@+id/include_layout_common" layout="@layout/include_title_toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_model_bind_type_defautl"
+            android:text="@string/relevance_model_type_deafult"
+            style="@style/tv_model_bind_type_style"/>
+
+        <TextView
+            android:id="@+id/tv_model_bind_type_async"
+            android:text="@string/relevance_model_type_synchrinzation"
+            style="@style/tv_model_bind_type_style"/>
+
+        <TextView
+            android:id="@+id/tv_model_bind_type_coustom"
+            android:text="@string/relevance_model_type_custom"
+            style="@style/tv_model_bind_type_style"/>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rc_base_common"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

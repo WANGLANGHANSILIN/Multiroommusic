@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.com.multiroommusic.ui.MainActivity"
+    android:background="@mipmap/theme_bg">
+
+    <include android:id="@+id/include_layout_main" layout="@layout/include_title_toolbar"/>
+
+
+    <FrameLayout
+        android:id="@+id/fl_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <RadioGroup
+        android:id="@+id/rg_main"
+        android:layout_width="match_parent"
+        android:layout_weight="0"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:background="@mipmap/tabwidget_bg"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_room"
+            style="@style/RadioButton_Style"
+            android:drawableTop="@drawable/iv_room_tab_icon_selector"
+            android:text="@string/channel" />
+
+        <RadioButton
+            android:id="@+id/rb_control"
+            style="@style/RadioButton_Style"
+            android:drawableTop="@drawable/iv_control_tab_icon_selector"
+            android:text="@string/control" />
+
+        <RadioButton
+            android:id="@+id/rb_setting"
+            style="@style/RadioButton_Style"
+            android:drawableTop="@drawable/iv_setting_tab_icon_selector"
+            android:text="@string/action_settings" />
+    </RadioGroup>
+</LinearLayout>

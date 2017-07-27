@@ -1,0 +1,63 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/color_checked_yell</item>
+        <item name="colorPrimaryDark">@color/list_item_color2</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="MyActivityTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <!--RadioButton相同的部分提取-->
+    <style name="RadioButton_Style">
+        <!-- 提取RadioButton中公共部分 -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:textColor">@drawable/tv_tab_text_color_selector</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:drawablePadding">3dp</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="playControl_iv_buttom_show" parent="playControl_iv_seek_show">
+        <item name="android:padding">@dimen/demens10dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/demens10dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="playControl_iv_seek_show">
+        <item name="android:padding">@dimen/demens10dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/iv_bg_selector</item>
+    </style>
+
+    <style name="playControl_iv_title_show" parent="playControl_iv_seek_show">
+        <item name="android:padding">@dimen/demens10dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/demens10dp</item>
+    </style>
+
+    <style name="tv_model_bind_type_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">@dimen/demens10dp</item>
+        <item name="android:textColor">@color/font_color</item>
+        <item name="android:background">@drawable/tv_model_bind_bg_selector</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>

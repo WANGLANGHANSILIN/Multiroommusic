@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Multi-Music</string>
+    <string name="action_settings">Settings</string>
+    <string name="device_list">ChannelList</string>
+    <string name="device_selector">You currently do not choose control device please select control device...</string>
+    <string name="back">Return</string>
+    <string name="cancel">Cancel</string>
+    <string name="comfirm">confirm</string>
+    <string name="refresh_tips_text">Pull Down to refresh</string>
+    <string name="refresh_last_update">Latest update</string>
+    <string name="setting_list">Settings</string>
+    <string name="channel">Room</string>
+    <string name="control">Control</string>
+    <string name="query_control_rooms">Query when controlling rooms</string>
+    <string name="port">port</string>
+    <string name="query_tips_open"> Query when controlling rooms</string>
+    <string name="query_tips_close"> No querying when controlling rooms</string>
+    <string name="wifi_unable">Wi-Fi is unable</string>
+    <string name="wifi_open">Wi-fi has been opened</string>
+    <string name="wifi_close">Wifi did not open</string>
+    <string name="exit_app">Are you sure to exit the app</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="attention">Attention</string>
+    <string name="port_empty">The port number can not be empty</string>
+    <string name="device_list_sliding">DeviceList</string>
+    <string name="device_exist">Not found device</string>
+    <string name="channel_open">Please open the channel</string>
+    <string name="radio_source">Music Source</string>
+
+
+    <!-- <string name="radio_net">Net Radio</string> -->
+    <string name="select_rooms">Please select your rooms to control</string>
+    <string name="control_rooms">Do you want to control the following rooms?</string>
+    <string name="set_src_fail">Setting failed,Please reselect</string>
+    <string name="update_channel_name">Please input new channel name below </string>
+    <string name="channel_rename">Long press room renamed</string>
+    <string name="channel_name_empty">The channel name can not be empty</string>
+    <string name="channel_exist">Not found channel</string>
+    <string name="channel_name_long">Channel name is too long</string>
+    <string name="modify">Modify</string>
+    <string name="searching_device">Looking for device...</string>
+    <string name="add_Radio">add Radio</string>
+    <string name="del_Radio">del Radio</string>
+
+    <string name="add_fail">addition netRadio failed</string>
+    <string name="add_succeed">addition netRadio succeed</string>
+    <string name="del_succeed">delete netRadio succeed</string>
+    <string name="del_fail">delete netRadio failed</string>
+
+    <string name="play_list">Play List</string>
+    <string name="check_same_src">To choose the same source of sound</string>
+    <string name="my_library">My Library</string>
+    <string name="my_music">My Music</string>
+    <string name="favorites">Favorites</string>
+    <string name="recent">Recent</string>
+    <string name="new_list">New List</string>
+    <string name="dlna_set">DLNA</string>
+    <string name="select_player">Please select your player</string>
+    <string name="add">Add</string>
+    <string name="del">Delete</string>
+    <string name="fail">Fail</string>
+    <string name="succee"></string>
+    <string name="select_folder">Please select music from folder</string>
+    <string name="xlistview_footer_hint_normal">Load more</string>
+    <string name="xlistview_footer_hint_ready">Loosen and to read more</string>
+    <string name="new_version">Checks to the new version </string>
+    <string name="want_to_upgrade">do you want to upgrade ?</string>
+    <string name="app_upgrade">Upgrade Tips</string>
+    <string name="next_time">Next Time</string>
+    <string name="update_now">Update Now</string>
+    <string name="upgrading">Upgrading, please waiting</string>
+    <string name="library">Library</string>
+    <string name="module_preparing">Sorry, network module is being prepared, please wait and try again.</string>
+    <string name="dlna_preparing">Sorry, DLNA device is not found, please wait and try again.</string>
+    <string name="device">Device</string>
+    <string name="room_list">Room List</string>
+    <string name="source_list">Source List</string>
+    <string name="network_radio">Internet Radio</string>
+    <string name="model_relevance">Chanel Module Relevance</string>
+    <string name="custom_radio">Costom Radio</string>
+    <string name="query">Query</string>
+    <string name="theme">Theme</string>
+    <string name="bluetoothsetting">Bluetooth Setting</string>
+    <string name="language">Language</string>
+    <string name="about">About</string>
+    <string name="new_source_name">Please input new source name below </string>
+    <string name="source_name_empty">Sorry, the source name can not be empty.</string>
+    <string name="source_name_length">Sorry, the source name can not be longer than eight characters.</string>
+    <string name="radio_list">Radio List</string>
+    <string name="usb_out">USB has been pulled out.</string>
+    <string name="usb_in">USB has been inserted.</string>
+    <string name="sd_changed">The songs in SD card has changed.</string>
+    <string name="single_play">Once</string>
+    <string name="single_loop">Repeat Once</string>
+    <string name="order_play">Order</string>
+    <string name="order_loop">All Repeat</string>
+    <string name="random_play">Shuffle</string>
+    <string name="Treble_Bass_title">Treble-Bass</string>
+    <string name="Treble_text">Treble</string>
+    <string name="Bass_text">Bass</string>
+
+    <string name="requested_connections">Requested Connections</string>
+    <string name="playing">Now Playing</string>
+
+    <!-- <string name="playback_failed">Playback Failed</string> -->
+    <string name="playback_failed">Playback Failed</string>
+
+    <!-- 迷你主机DM838 -->
+    <string name="Source_LocalMusic">Local Music</string>
+    <string name="Source_NETMusic">NET Music</string>
+    <string name="Source_NETRadio">NET Radio</string>
+    <string name="Source_BT">Bluetooth</string>
+    <string name="Source_AUX">AUX</string>
+
+    <string name="Source_Sd">SD</string>
+    <string name="Source_Built_in_music">Built-in Music</string>
+
+    <string name="eq_source"> Sound Effect</string>
+    <string name="normal">Normal</string>
+    <string name="popual">Pop</string>
+    <string name="classic">Classic</string>
+    <string name="jazz">Jazz</string>
+    <string name="rock">Rock</string>
+
+    <string name="vocal">Vocal</string>
+    <string name="metal">Metal</string>
+    <string name="sentimental">Sentimental</string>
+
+    <string name="dance">Dance</string>
+    <string name="custom">Custom</string>
+
+    <!-- 寻呼 -->
+    <string name ="is_paging">Is Paging</string>
+    <string name="paging">Paging</string>
+    <!-- 寻呼 -->
+
+    <string name = "sd_usb">SD/USB</string>
+    <string name="beyond">Beyond</string>
+    <string name = "root">Root</string>
+    <string name="setting_bule_name">Bluetooth Name:</string>
+    <string name="setting_input_blue_name">Please enter the Bluetooth Name</string>
+    <string name="setting_blue_psd">Password:</string>
+    <string name="setting_blue_input_psd">Enter the Password for Bluetooth</string>
+    <string name="setting_blue_confirm">Confirm</string>
+    <string name="setting_blue_cancle">Cancle</string>
+    <string name="src_seletor">Audio source selection</string>
+
+
+    <string name="bein_add">Adding...</string>
+    <string name="again_exit">Click once again to exit</string>
+    <string name="add_success">"Radio Added Successfully..."</string>
+    <string name="radio_not_empty">The radio address or name can not be entered blank...</string>
+    <string name="radio_format_err">The radio address is not in the correct format...</string>
+    <string name="radio_length_empty">The radio address length is empty...</string>
+    <string name="radio_name_overlong">Radio name is too long...</string>
+    <string name="radio_adress_overlong">Radio address is too long...</string>
+    <string name="myradio">My Radio</string>
+    <string name="radio_edits">Radio Edit</string>
+    <string name="add_to_dev">add select radio to devices</string>
+    <string name="del_form_dev">del select radio form devices</string>
+    <string name="check_the_new_version">Check the new version</string>
+    <string name="input_radio_name">please input radio name</string>
+
+    <string name="radio_back">Back</string>
+    <string name="radio_add_more">Add more</string>
+
+    <string name="relevance_model_type_deafult">Deafult</string>
+    <string name="relevance_model_type_synchrinzation">Synchronization</string>
+    <string name="relevance_model_type_custom">Custom</string>
+    <string name="vaule_10db">10</string>
+    <string name="vaule_10db_">-10</string>
+
+    <string-array name="setting_language">
+        <item>English</item>
+        <item>繁体中文</item>
+        <item>简体中文</item>
+    </string-array>
+
+    <string-array name="dm838_setting_name">
+        <item>Device</item>
+        <item>Room List</item>
+        <item>Query</item>
+        <item>Language</item>
+        <item>About</item>
+    </string-array>
+
+    <string-array name="am8328_setting_name">
+        <item>Device</item>
+        <item>Room List</item>
+        <item>Source List</item>
+        <item>Internet Radio</item>
+        <item>Chanel Module Relevance</item>
+        <item>Query</item>
+        <item>Language</item>
+        <item>About</item>
+    </string-array>
+
+</resources>

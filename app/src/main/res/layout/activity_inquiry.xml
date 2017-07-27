@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <include android:id="@+id/include_layout_inquiry" layout="@layout/include_title_toolbar"/>
+
+    <Switch
+        android:padding="@dimen/demens10dp"
+        android:switchPadding="@dimen/demens10dp"
+        android:id="@+id/switch_layout_inquiry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:showText="true"
+        android:textOn="      "
+        android:textOff="      "
+        android:thumbTextPadding="@dimen/dimens5dp"
+        android:thumb="@drawable/switch_state_selector"
+        android:track="@drawable/switch_state_selector_trok"
+        android:textColor="@color/font_color"
+        android:text="@string/query_control_rooms"/>
+
+</LinearLayout>

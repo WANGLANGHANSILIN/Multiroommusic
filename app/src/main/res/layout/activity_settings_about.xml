@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/control_activity_shape"
+    android:orientation="vertical">
+    
+    <include android:id="@+id/include_layout_about" layout="@layout/include_title_toolbar"/>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		android:gravity="center">
+
+
+
+	<TextView
+		android:id="@+id/tv_appname_about_activity"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="90dp"
+		android:gravity="center"
+		android:textColor="@color/font_color"
+		android:textSize="19sp"
+		/>
+
+	<TextView
+		android:id="@+id/tv_appversion_about_activity"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+		android:gravity="center"
+		android:textColor="@color/font_color"
+		android:textSize="16sp"/>
+
+	<TextView
+		android:id="@+id/tv_checkupgrad_about_activity"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+		android:gravity="center"
+		android:textColor="@color/colorPrimary"
+		android:linksClickable="true"
+		android:textSize="16sp"
+		android:text="@string/check_the_new_version"/>
+
+	<Button
+		android:id="@+id/bt_logoauxdio_about_activity"
+		android:layout_width="160dp"
+		android:layout_height="35dp"
+		android:layout_marginTop="60dip"
+		android:background="@mipmap/auxdio" />
+
+	<TextView
+		android:id="@+id/tv_url_about_activity"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="0dp"
+		android:gravity="center"
+		android:autoLink = "all"
+		android:textSize="18sp"
+		android:textColor="@color/font_color" />
+
+	<TextView
+		android:id="@+id/tv_copyright_about_activity"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="65dp"
+		android:gravity="center"
+		android:textColor="@color/font_color"
+		android:textSize="19sp"
+		/>
+	</LinearLayout>
+        
+</LinearLayout>

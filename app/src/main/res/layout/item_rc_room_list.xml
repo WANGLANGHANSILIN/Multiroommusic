@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center_vertical">
+
+   <CheckBox
+       android:id="@+id/cb_item_rc_room_check"
+       android:layout_width="@dimen/dimens5dp"
+       android:layout_height="match_parent"
+       />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/demens10dp">
+
+
+
+    <TextView
+        android:id="@+id/tv_item_rc_room_name"
+        android:layout_width="0dp"
+        android:layout_weight="1.5"
+        android:layout_height="match_parent"
+        android:text="@string/app_name"
+        android:textColor="@color/font_color"
+        android:layout_margin="@dimen/dimens5dp"
+        android:gravity="center"
+        android:maxLines="1"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1.5"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+        <TextView
+            android:id="@+id/tv_item_rc_room_source_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/font_color"
+            android:paddingLeft="@dimen/dimens5dp"
+            android:paddingRight="@dimen/dimens5dp"
+            android:paddingBottom="@dimen/dimens2dp"
+            android:gravity="center"
+            android:textSize="@dimen/font14dp"/>
+
+        <TextView
+            android:id="@+id/tv_item_rc_room_volume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/dimens5dp"
+            android:paddingRight="@dimen/dimens5dp"
+            android:paddingBottom="@dimen/dimens2dp"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/font_color"
+            android:textSize="@dimen/font14dp"/>
+
+    </LinearLayout>
+
+    <Switch
+        android:padding="@dimen/demens10dp"
+        android:switchPadding="@dimen/demens10dp"
+        android:id="@+id/switch_layout_inquiry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:switchMinWidth="@dimen/demens35dp"
+        android:showText="true"
+        android:textOn="      "
+        android:textOff="      "
+        android:thumbTextPadding="@dimen/dimens5dp"
+        android:thumb="@drawable/switch_state_selector"
+        android:track="@drawable/switch_state_selector_trok"/>
+    </LinearLayout>
+</LinearLayout>
